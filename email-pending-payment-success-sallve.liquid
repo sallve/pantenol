@@ -72,7 +72,7 @@
 
           <table class="row content">
   <tr>
-    <td class="content__cell">
+    <td class="content__cell" style="padding: 0px">
       <center>
         <table class="container">
           <tr>
@@ -127,7 +127,59 @@
     </td>
   </tr>
 </table>
-
+          <!-- Warning component -->
+          <table class="row section">
+            <tr>
+              <td class="section__cell" style="padding: 0px">
+                <center>
+                  <table class="container">
+                    <tr>
+                      <td>
+                        <table style="
+                          background-color: #fff3cd;
+                          border: 1px solid #ffeaa7;
+                          border-radius: 8px;
+                          width: 100%;
+                          padding: 20px;
+                          border-collapse: collapse;
+                          border-spacing: 0px;
+                          margin: 10px 0;
+                        " cellpadding="0" cellspacing="0">
+                          <tr>
+                            <td style="
+                              padding: 16px;
+                              margin: 0;
+                              vertical-align: top;
+                            " valign="top">
+                              <h3 style="
+                                margin: 0 0 8px 0;
+                                font-family: arial, 'helvetica neue', helvetica, sans-serif;
+                                font-size: 16px;
+                                font-weight: bold;
+                                color: #856404;
+                                line-height: 20px;
+                              ">
+                                Cuidado com golpes
+                              </h3>
+                              <p style="
+                                margin: 0;
+                                font-family: arial, 'helvetica neue', helvetica, sans-serif;
+                                font-size: 14px;
+                                color: #856404;
+                                line-height: 20px;
+                              ">
+                                A Sallve e suas transportadoras parceiras não solicitam pagamentos de taxas extras para entrega
+                              </p>
+                            </td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                  </table>
+                </center>
+              </td>
+            </tr>
+          </table>
           {% assign gift_card_line_item = line_items | where: "gift_card" %}
           {% if gift_card_line_item.first %}
             <table class="row section">
